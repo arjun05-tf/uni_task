@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Manager</title>
+  </head>
+  <body>
+    <h1>Book Manager</h1>
+    <table id="bookTable" border="1">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Year</th>
+          <th>Genre</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <h3>Update Book</h3>
+    <input id="title" placeholder="Title" />
+    <input id="author" placeholder="Author" />
+    <input id="year" placeholder="Year" />
+    <input id="genre" placeholder="Genre" />
+    <button onclick="updateBook()">Update</button>
+    <h3>Remove Book</h3>
+    <input id="removeTitle" placeholder="Title" />
+    <button onclick="removeBook()">Remove</button>
+    <script src="book_data.js"></script>
+  </body>
+</html>
